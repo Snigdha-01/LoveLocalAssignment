@@ -9,10 +9,12 @@ int main()
     cin >> n;
     int k;
     // Enter window size
+    cout<<"k= ";
     cin >> k;
     vector<int> arr(n);
 
     // input taking
+    cout<<"Input: nums = "<<endl;
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i];
@@ -53,6 +55,7 @@ int main()
     }
 
     // output
+    cout<<"Output :"<<endl;
     for (int i = 0; i < result.size(); ++i)
     {
         cout << result[i] << " ";

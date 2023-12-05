@@ -5,9 +5,11 @@ int main()
 {
     int n;
     // Enter the number of rows
+    cout<<"Input: numRows = ";
     cin >> n;
 
     // Output
+    cout<<"Output :"<<endl;
     for (int i = 0; i < n; i++)
     { // for rows
         int number = 1;

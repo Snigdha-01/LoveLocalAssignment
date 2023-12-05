@@ -20,6 +20,7 @@ int main()
 {
     string s;
     // Enter the string
+    cout<<"Input: s = ";
     cin >> s;
-    cout << shortestPalindrome(s) << endl;
+    cout <<"Output: "<< shortestPalindrome(s) << endl;
 }

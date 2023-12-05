@@ -7,6 +7,7 @@ int main()
 
     int n;
     // Enter number till which you want count
+    cout<<"Input: n = ";
     cin >> n;
 
     int i;
@@ -27,6 +28,6 @@ int main()
         }
     }
     // output
-    cout << count << endl;
+    cout <<"Output: "<< count << endl;
     return 0;
 }

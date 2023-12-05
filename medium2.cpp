@@ -5,6 +5,7 @@ int main()
 {
     int n;
     // Enter length of array
+    cout<<"Input: nums = ";
     cin >> n;
 
     int arr[n];
@@ -22,6 +23,7 @@ int main()
 
     int maxi = n / 3;
     // logic to check if the (key, value) value is greater than n/3
+    cout<<"Output : ";
     for (auto it = m.begin(); it != m.end(); ++it)
     {
         if (!(it->second > maxi))

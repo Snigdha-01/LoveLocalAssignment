@@ -5,6 +5,7 @@ int main()
 {
     string s;
     // Enter a string
+    cout<<"Input : s = ";
     getline(cin, s);
 
     stack<char> st;
@@ -31,7 +32,7 @@ int main()
     }
 
     // output
-    cout << length << std::endl;
+    cout << "Output : "<<length << std::endl;
 
     return 0;
 }
